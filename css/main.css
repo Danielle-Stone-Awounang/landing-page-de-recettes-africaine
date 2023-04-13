@@ -382,6 +382,7 @@ nav .search i {
 
 .gallery .img{
     margin: 1rem;
+    width: 70px;
 }
 @media screen and (max-width:768px) {
 h3{
@@ -449,6 +450,18 @@ h3{
 .services__description{
     font-weight: 400;
 }
+.notion{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+.notion:hover{
+    color: #0f6a0f;
+    font-weight: 600;
+}
+.mg_diag{
+    width: 200px;
+}
 
  /* end of services section */
  /* design section */
@@ -479,6 +492,10 @@ h3{
     flex-wrap: wrap;
     width: 90%;
     margin: auto;
+}
+.video{
+    width: 100%;
+    height: 70vh;
 }
 .telecharger{
     background-color: #fff;
@@ -788,6 +805,13 @@ h3{
 .info-container .information .info h4 {
     font-size: 50px;
     padding: 30px 0 20px;
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 2px;
 }
 .info-container .information .info p {
     font-size: 14px;
